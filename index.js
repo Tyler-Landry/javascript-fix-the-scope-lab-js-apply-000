@@ -18,7 +18,7 @@ var funkyFunction = function() {
   return function() {
   return "FUNKY!"
   }
-  { var theFunk = function(funkyFunction) {
+  { var theFunk = function() {
   return "FUNKY!" 
   }
   }
