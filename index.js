@@ -18,8 +18,8 @@ var funkyFunction = function() {
   return function() {
   return "FUNKY!"
   }
-  { var theFunk = function() {
-  return function(funkyFunction) {
+  { var theFunk = function(funkyFunction) {
+  return function() {
     }
   }
 }
